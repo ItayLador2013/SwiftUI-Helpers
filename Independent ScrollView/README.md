@@ -3,6 +3,8 @@
 Scrollable grid for a list where item's positioning can be changed throughout the session without affecting the positioning of the other items on the grid.
 
 ```swift
+IndependentScrollViewGrid<ListItemType, Label> : View where ListItemType : Identifiable, Label : View
+
 init(
   list : [ListItemType],
   item_size: CGSize,
@@ -15,6 +17,6 @@ init(
 ## Example Usage
 ```swift
 IndependentScrollViewGrid(list: images, item_size: CGSize(width: IMAGE_WIDTH, height: IMAGE_HEIGHT)) { image in
-  \\Grid item in here
+  //Grid item in here
 }
 ```

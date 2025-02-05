@@ -35,6 +35,5 @@ struct HoldingButton<Label> : View where Label : View {
                     on_hold()
                 })
         )
-        .sensoryFeedback(.impact, trigger: holding)
     }
 }

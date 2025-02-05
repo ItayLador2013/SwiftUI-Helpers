@@ -1,7 +1,7 @@
 //
 //  IndependentScrollView.swift
 //
-//  Created by Itay Lador on 2/3/25.
+//  Created by Itay Lador
 //
 
 import SwiftUI

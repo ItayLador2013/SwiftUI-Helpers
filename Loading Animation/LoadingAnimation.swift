@@ -1,7 +1,7 @@
 //
 //  LoadingAnimation.swift
 //
-//  Created by Itay Lador on 1/31/25.
+//  Created by Itay Lador
 //
 
 import SwiftUI
